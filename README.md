@@ -17,11 +17,11 @@ Deliver actionable insights through ad-hoc queries and visualizations.
 # Datasets
 
 The datasets for this project include:
-Customer Product: Information about customer products.
-Gross Price: Data on product pricing.
-Pre-Invoice Deduction: Details on pre-invoice deductions.
-Sales Monthly: Monthly sales data.
-Manufacturing Cost: Data on manufacturing costs.
+- Customer Product: Information about customer products.
+- Gross Price: Data on product pricing.
+- Pre-Invoice Deduction: Details on pre-invoice deductions.
+- Sales Monthly: Monthly sales data.
+- Manufacturing Cost: Data on manufacturing costs.
 
 # Ad-Hoc Queries
 
@@ -30,11 +30,13 @@ The project involved addressing 10 ad-hoc query requests, each aimed at answerin
 # Technical and Soft Skills
 
 # Technical Skills
-SQL
-Data Analysis
-Data Visualization (Power BI)
+
+- SQL
+- Data Analysis
+- Data Visualization (Power BI)
 
 # Soft Skills
-Problem Solving
-Analytical Thinking
-Communication
+
+- Problem Solving
+- Analytical Thinking
+- Communication
