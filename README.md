@@ -134,6 +134,7 @@ SELECT *,ROUND(gross_sales_mln*100/SUM(gross_sales_mln) OVER(),2) AS percentage 
 
 ### 10. Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? The final output contains these fields, division, product_code product, total_sold_quantity ,rank_order*/
   
+Sol:- 
 WITH cte12 AS(WITH cte11 AS(WITH cte10 AS(SELECT B.division,A.product_code,B.product,A.sold_quantity FROM fact_sales_monthly A 
 LEFT JOIN dim_product B ON A.product_code=B.product_code WHERE A.fiscal_year=2021) 
 SELECT  division,product_code,product,SUM(sold_quantity) AS total_sold_quantity
